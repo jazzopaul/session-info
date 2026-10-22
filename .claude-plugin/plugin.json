@@ -1,0 +1,16 @@
+{
+  "name": "session-info",
+  "version": "0.1.0",
+  "description": "A bar above the prompt showing how long the prompt cache stays warm, context-window fill, and the 5-hour and weekly usage limits",
+  "author": { "name": "Jonathan Azzopardi Paul" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cacheTtl": {
+      "type": "string",
+      "title": "Prompt cache TTL",
+      "description": "auto infers 5m or 1h from what the API reports; 5m or 1h pins it",
+      "default": "auto",
+      "options": ["auto", "1h", "5m"]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "session-info",
+  "owner": { "name": "Jonathan Azzopardi Paul" },
+  "metadata": { "description": "A bar above the Claude Code prompt: prompt cache, context, usage limits and session cost" },
+  "plugins": [{ "name": "session-info", "source": "./" }]
+}
